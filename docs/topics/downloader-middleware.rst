@@ -706,10 +706,10 @@ HttpCompressionMiddleware
    sent/received from web sites.
 
    This middleware also supports decoding `brotli-compressed`_ responses,
-   provided `brotlipy`_ is installed.
+   provided `brotli`_ is installed.
 
 .. _brotli-compressed: https://www.ietf.org/rfc/rfc7932.txt
-.. _brotlipy: https://pypi.python.org/pypi/brotlipy
+.. _brotli: https://pypi.org/project/Brotli/
 
 HttpCompressionMiddleware Settings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
